@@ -23,7 +23,7 @@ app.listen(port);
 function reply({ replyToken, userId, originalMessage, events }) {
   const headers = {
     "Content-Type": "application/json",
-    Authorization: "Bearer 8b6402529e6cec77aef143ad7e96cfca",
+    Authorization: "Bearer TLW2V7n+gNpBWETpJWS5FoZV6x3hb2Z7GHf+CVeXdd9oQTPlC12qBen19XNpu3MuBj+/zyCHan/Gp+NIGD8peJGIxRWPnVXAQwlyMrersMHg6DBH3MQgNtNUPy48CYujgw4CCY6fMgdYsuhWtOrhjwdB04t89/1O/w1cDnyilFU=",
   };
 
   const body = JSON.stringify({
