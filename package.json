@@ -1,0 +1,14 @@
+{
+  "name": "line-bot-steve-by-nodejs",
+  "version": "1.0.0",
+  "description": "learning line bot by nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "geidtiphong@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
