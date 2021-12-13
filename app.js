@@ -31,6 +31,7 @@ function reply({ replyToken, userId, originalMessage, events }) {
     messages: [
       { type: "text", text: `userId(${userId}) say: ${originalMessage}` },
       { type: "text", text: JSON.stringify(events) },
+      { type: "text", text: 'test by pobx' },
     ],
   });
 
